@@ -1,0 +1,34 @@
+{
+    "name": "capacitor-zot",
+    "version": "0.0.1",
+    "description": "Send ZPL commands to printers over TCP from Capacitor apps",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "keywords": [
+        "zpl",
+        "tcp",
+        "printer",
+        "capacitor",
+        "zot",
+        "android",
+        "ios"
+    ],
+    "license": "NOLICENSE",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {},
+    "peerDependencies": {
+        "@spryrocks/capacitor-socket-connection-plugin": "^6.3.0",
+        "@capacitor/core": "^6.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}

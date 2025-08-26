@@ -1,0 +1,25 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "run:ios": "npx cap run ios",
+    "run:android": "npx cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^6.2.1",
+    "@capacitor/ios": "^6.2.1",
+    "@spryrocks/capacitor-socket-connection-plugin": "^6.3.0",
+    "capacitor-zot": "file:..",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^4.4.0"
+  }
+}

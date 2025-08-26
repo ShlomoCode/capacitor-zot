@@ -1,0 +1,28 @@
+PODS:
+  - Capacitor (6.2.1):
+    - CapacitorCordova
+  - CapacitorCordova (6.2.1)
+  - SpryrocksCapacitorSocketConnectionPlugin (6.3.0):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "SpryrocksCapacitorSocketConnectionPlugin (from `../../node_modules/@spryrocks/capacitor-socket-connection-plugin`)"
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  SpryrocksCapacitorSocketConnectionPlugin:
+    :path: "../../node_modules/@spryrocks/capacitor-socket-connection-plugin"
+
+SPEC CHECKSUMS:
+  Capacitor: c95400d761e376be9da6be5a05f226c0e865cebf
+  CapacitorCordova: 8d93e14982f440181be7304aa9559ca631d77fff
+  SpryrocksCapacitorSocketConnectionPlugin: 51b521ea8b4f5170a47542fef603db1832f4abe7
+
+PODFILE CHECKSUM: 444c61205b2942204d8f1ec337401a1698b402d8
+
+COCOAPODS: 1.16.2
